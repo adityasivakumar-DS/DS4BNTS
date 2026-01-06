@@ -1,0 +1,14 @@
+.ecommerce-search-bar {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+.ecommerce-search-bar--full-width {
+  width: 100%;
+}
+
+.ecommerce-search-bar--full-width .ecommerce-input-wrapper {
+  flex: 1;
+}
+

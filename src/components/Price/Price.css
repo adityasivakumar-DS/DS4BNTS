@@ -1,0 +1,39 @@
+.ecommerce-price {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.ecommerce-price__current {
+  font-weight: 700;
+  color: #212529;
+}
+
+.ecommerce-price--small .ecommerce-price__current {
+  font-size: 1rem;
+}
+
+.ecommerce-price--medium .ecommerce-price__current {
+  font-size: 1.25rem;
+}
+
+.ecommerce-price--large .ecommerce-price__current {
+  font-size: 1.5rem;
+}
+
+.ecommerce-price__original {
+  font-size: 0.875rem;
+  color: #6c757d;
+  text-decoration: line-through;
+  font-weight: 400;
+}
+
+.ecommerce-price--small .ecommerce-price__original {
+  font-size: 0.75rem;
+}
+
+.ecommerce-price--large .ecommerce-price__original {
+  font-size: 1rem;
+}
+

@@ -1,0 +1,56 @@
+.ecommerce-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.75rem;
+}
+
+.ecommerce-badge--small {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.625rem;
+}
+
+.ecommerce-badge--medium {
+  padding: 0.375rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.ecommerce-badge--large {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+.ecommerce-badge--primary {
+  background-color: #646cff;
+  color: white;
+}
+
+.ecommerce-badge--secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.ecommerce-badge--success {
+  background-color: #10b981;
+  color: white;
+}
+
+.ecommerce-badge--danger {
+  background-color: #ef4444;
+  color: white;
+}
+
+.ecommerce-badge--warning {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.ecommerce-badge--info {
+  background-color: #3b82f6;
+  color: white;
+}
+
