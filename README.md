@@ -165,6 +165,31 @@ Full component documentation is available in Storybook. Each component includes:
 - **Storybook** 10.1.11
 - **Vitest** (for testing)
 
+## 🎛️ Figma & Code Connect
+
+This library is designed to work with the master components defined in the Figma file
+`7sEfkrrXQXuAPWJSa3D0V4` (section `Master Components`).
+
+Key mappings for Figma Code Connect:
+
+- **Button** → `src/components/Button/Button.tsx`
+- **Rating (Star Rating)** → `src/components/Rating/Rating.tsx`
+- **Price (Product Price)** → `src/components/Price/Price.tsx`
+- **Header** → `src/components/Header/Header.tsx`
+- **Footer** → `src/components/Footer/Footer.tsx`
+- **ProductCard** → `src/components/ProductCard/ProductCard.tsx`
+- **Cart** → `src/components/Cart/Cart.tsx`
+- **SearchBar** → `src/components/SearchBar/SearchBar.tsx`
+- **Input** → `src/components/Input/Input.tsx`
+- **Badge** → `src/components/Badge/Badge.tsx`
+
+Each component lives in its own folder under `src/components`, with:
+
+- A typed React implementation (`*.tsx`)
+- A dedicated stylesheet (`*.css`)
+- A Storybook story (`*.stories.tsx`)
+- An `index.ts` barrel file for clean imports
+
 ## 📝 License
 
 This project is open source and available under the MIT License.
