@@ -1,0 +1,36 @@
+.ecommerce-icon-with-text {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.ecommerce-icon-with-text__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: #f3f4f6;
+  color: #111827;
+  flex-shrink: 0;
+}
+
+.ecommerce-icon-with-text__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.ecommerce-icon-with-text__title {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #111827;
+}
+
+.ecommerce-icon-with-text__description {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+

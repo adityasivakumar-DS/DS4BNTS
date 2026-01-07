@@ -1,0 +1,42 @@
+.ecommerce-size-color {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.ecommerce-size-color__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.ecommerce-size-color__field {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.ecommerce-size-color__label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.25rem;
+}
+
+.ecommerce-size-color__label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.ecommerce-size-color__size-chart {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  color: #4b5563;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+

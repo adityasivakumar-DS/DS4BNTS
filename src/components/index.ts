@@ -14,4 +14,6 @@ export * from './NavMenu';
 export * from './CardSelector';
 export * from './ProductMedia';
 export * from './ProductBrandRating';
+export * from './SizeColorSelector';
+export * from './IconWithText';
 

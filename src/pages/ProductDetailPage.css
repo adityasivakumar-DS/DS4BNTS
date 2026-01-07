@@ -1,0 +1,60 @@
+.pdp-root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pdp-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.pdp-breadcrumbs {
+  margin-top: 0.25rem;
+}
+
+.pdp-main {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  gap: 2.5rem;
+}
+
+.pdp-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.pdp-title {
+  font-size: 1.75rem;
+  line-height: 1.25;
+  color: #111827;
+}
+
+.pdp-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.pdp-icon-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .pdp-main {
+    grid-template-columns: 1fr;
+  }
+
+  .pdp-root {
+    padding: 1.5rem 1rem 2.5rem;
+  }
+}
+
+
