@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" data-pattern-id="pdp_two_column_media_details">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product Detail Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div
+      class="pdp-root"
+      data-pattern-id="pdp_two_column_media_details"
+      data-layout="two_column"
+    >
+      <!-- HEADER REGION: Header base + Breadcrumbs -->
+      <header class="pdp-header" data-region="header">
+        <!-- Header base (navigation_bar) -->
+        <div class="header" data-component="Header base">
+          <div class="header__inner">
+            <div class="header__logo">Acme</div>
+            <nav class="header__nav" aria-label="Main navigation">
+              <ul class="header__nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">About</a></li>
+              </ul>
+            </nav>
+            <div class="header__actions">
+              <button type="button" aria-label="Search">🔍</button>
+              <button type="button" aria-label="User account">👤</button>
+              <button type="button" aria-label="Cart">🛒</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Breadcrumbs (breadcrumb_trail) -->
+        <div class="pdp-breadcrumbs" data-component="Breadcrumbs">
+          <nav class="ecommerce-breadcrumbs" aria-label="Breadcrumb">
+            <ol class="ecommerce-breadcrumbs__list">
+              <li class="ecommerce-breadcrumbs__item">
+                <a href="#" class="ecommerce-breadcrumbs__link">Home</a>
+                <span class="ecommerce-breadcrumbs__separator">/</span>
+              </li>
+              <li class="ecommerce-breadcrumbs__item">
+                <a href="#" class="ecommerce-breadcrumbs__link">Electronics</a>
+                <span class="ecommerce-breadcrumbs__separator">/</span>
+              </li>
+              <li class="ecommerce-breadcrumbs__item">
+                <a href="#" class="ecommerce-breadcrumbs__link">Headphones</a>
+                <span class="ecommerce-breadcrumbs__separator">/</span>
+              </li>
+              <li class="ecommerce-breadcrumbs__item">
+                <span
+                  class="ecommerce-breadcrumbs__button"
+                  aria-current="page"
+                  >Wireless Noise Cancelling</span
+                >
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </header>
+
+      <!-- MAIN TWO-COLUMN LAYOUT -->
+      <main class="pdp-main" data-region="main_content">
+        <!-- LEFT COLUMN: Product Media Section -->
+        <section
+          class="pdp-column pdp-column--left"
+          data-region="left_column"
+        >
+          <div
+            class="ecommerce-product-media"
+            data-component="Product Media Section"
+          >
+            <!-- main_product_image -->
+            <div class="ecommerce-product-media__main">
+              <img
+                src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=900"
+                alt="Wireless headphones on desk"
+                class="ecommerce-product-media__image"
+              />
+              <!-- Nav arrows (Nav=on) -->
+              <button
+                type="button"
+                class="ecommerce-product-media__nav ecommerce-product-media__nav--prev"
+                aria-label="Previous image"
+              >
+                ‹
+              </button>
+              <button
+                type="button"
+                class="ecommerce-product-media__nav ecommerce-product-media__nav--next"
+                aria-label="Next image"
+              >
+                ›
+              </button>
+            </div>
+
+            <!-- thumbnail_gallery (Thumbnail row, count=3) -->
+            <div
+              class="ecommerce-product-media__thumbnails ecommerce-product-media__thumbnails--3"
+            >
+              <button
+                type="button"
+                class="ecommerce-product-media__thumbnail ecommerce-product-media__thumbnail--active"
+                aria-label="Show image 1"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=300"
+                  alt="Wireless headphones on desk"
+                />
+              </button>
+              <button
+                type="button"
+                class="ecommerce-product-media__thumbnail"
+                aria-label="Show image 2"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1518441655971-9c61d05f2224?w=300"
+                  alt="Close-up of headphone earcup"
+                />
+              </button>
+              <button
+                type="button"
+                class="ecommerce-product-media__thumbnail"
+                aria-label="Show image 3"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1511963216197-83c1f57c4f85?w=300"
+                  alt="Headphones in carrying case"
+                />
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- RIGHT COLUMN: Product info, pricing, selectors, CTA -->
+        <section
+          class="pdp-column pdp-column--right"
+          data-region="right_column"
+        >
+          <!-- 1. Product brand rating -->
+          <div class="pdp-block" data-component="Product brand rating">
+            <div class="ecommerce-product-brand-rating">
+              <div class="ecommerce-product-brand-rating__text">
+                <div class="ecommerce-product-brand-rating__brand">
+                  Acme Audio
+                </div>
+                <div class="ecommerce-product-brand-rating__name">
+                  Wireless Noise Cancelling Headphones
+                </div>
+                <div class="ecommerce-product-brand-rating__rating-row">
+                  <!-- Star Rating -->
+                  <div class="ecommerce-rating">
+                    ★★★★☆
+                  </div>
+                  <span class="ecommerce-product-brand-rating__reviews">
+                    284 reviews
+                  </span>
+                </div>
+              </div>
+              <!-- Wishlist button -->
+              <button
+                type="button"
+                class="ecommerce-product-brand-rating__wishlist"
+                aria-label="Add to wishlist"
+              >
+                ♥
+              </button>
+            </div>
+          </div>
+
+          <!-- 2. product_title -->
+          <div class="pdp-block" data-component="product_title">
+            <h1 class="pdp-title">
+              Wireless Noise Cancelling Over‑Ear Headphones
+            </h1>
+          </div>
+
+          <!-- 3. Product Price -->
+          <div class="pdp-block" data-component="Product Price">
+            <div class="ecommerce-price">
+              <span class="ecommerce-price__current">$199.99</span>
+              <span class="ecommerce-price__original">$299.99</span>
+              <span class="ecommerce-price__discount">-33%</span>
+            </div>
+          </div>
+
+          <!-- 4. Size & Color Selector (variant_selector) -->
+          <div class="pdp-block" data-component="Size & Color Selector">
+            <div class="ecommerce-size-color">
+              <div class="ecommerce-size-color__row">
+                <!-- Size -->
+                <div class="ecommerce-size-color__field">
+                  <div class="ecommerce-size-color__label-row">
+                    <span class="ecommerce-size-color__label">Size</span>
+                    <button
+                      type="button"
+                      class="ecommerce-size-color__size-chart"
+                    >
+                      Size chart
+                    </button>
+                  </div>
+                  <!-- size_dropdown -->
+                  <div class="ecommerce-dropdown">
+                    <div class="ecommerce-dropdown__control">
+                      <select class="ecommerce-dropdown__select">
+                        <option value="">Select size</option>
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                      </select>
+                      <span class="ecommerce-dropdown__icon" aria-hidden="true">
+                        ▾
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Color -->
+                <div class="ecommerce-size-color__field">
+                  <span class="ecommerce-size-color__label">Color</span>
+                  <!-- color_dropdown -->
+                  <div class="ecommerce-dropdown">
+                    <div class="ecommerce-dropdown__control">
+                      <select class="ecommerce-dropdown__select">
+                        <option value="">Select color</option>
+                        <option value="black">Black</option>
+                        <option value="silver">Silver</option>
+                        <option value="blue">Blue</option>
+                      </select>
+                      <span class="ecommerce-dropdown__icon" aria-hidden="true">
+                        ▾
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Card Selector (purchase_options) -->
+          <div class="pdp-block" data-component="Card Selector">
+            <div class="ecommerce-card-selector" role="radiogroup">
+              <button
+                type="button"
+                class="ecommerce-card-selector__card ecommerce-card-selector__card--active"
+                role="radio"
+                aria-checked="true"
+              >
+                <div class="ecommerce-card-selector__content">
+                  <div class="ecommerce-card-selector__title">
+                    One‑time purchase
+                  </div>
+                  <div class="ecommerce-card-selector__description">
+                    $199.99
+                  </div>
+                </div>
+              </button>
+              <button
+                type="button"
+                class="ecommerce-card-selector__card"
+                role="radio"
+                aria-checked="false"
+              >
+                <div class="ecommerce-card-selector__content">
+                  <div class="ecommerce-card-selector__title">
+                    Monthly plan
+                  </div>
+                  <div class="ecommerce-card-selector__description">
+                    $35.00/mo for 6 months
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <!-- 6. IconWithTextText (delivery_info) -->
+          <div class="pdp-block" data-component="IconWithTextText">
+            <div class="pdp-icon-list">
+              <div class="ecommerce-icon-with-text">
+                <div class="ecommerce-icon-with-text__icon">🚚</div>
+                <div class="ecommerce-icon-with-text__content">
+                  <div class="ecommerce-icon-with-text__title">
+                    Free shipping
+                  </div>
+                  <div class="ecommerce-icon-with-text__description">
+                    On orders over $50. Delivered in 3–5 business days.
+                  </div>
+                </div>
+              </div>
+
+              <div class="ecommerce-icon-with-text">
+                <div class="ecommerce-icon-with-text__icon">↩</div>
+                <div class="ecommerce-icon-with-text__content">
+                  <div class="ecommerce-icon-with-text__title">
+                    30‑day returns
+                  </div>
+                  <div class="ecommerce-icon-with-text__description">
+                    Free, no‑questions‑asked returns within 30 days.
+                  </div>
+                </div>
+              </div>
+
+              <div class="ecommerce-icon-with-text">
+                <div class="ecommerce-icon-with-text__icon">💳</div>
+                <div class="ecommerce-icon-with-text__content">
+                  <div class="ecommerce-icon-with-text__title">
+                    Secure payment
+                  </div>
+                  <div class="ecommerce-icon-with-text__description">
+                    All major credit cards and PayPal accepted.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7. Button (add_to_cart_action, must_have_cta) -->
+          <div class="pdp-block" data-component="Button">
+            <button
+              type="button"
+              class="ecommerce-button ecommerce-button--primary ecommerce-button--large ecommerce-button--full-width"
+            >
+              Add to Cart
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
