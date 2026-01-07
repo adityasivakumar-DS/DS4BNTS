@@ -1,0 +1,34 @@
+.ecommerce-nav-menu {
+  display: flex;
+}
+
+.ecommerce-nav-menu__list {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ecommerce-nav-menu__item {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: #4b5563;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ecommerce-nav-menu__item--active {
+  color: #111827;
+  font-weight: 600;
+}
+
+.ecommerce-nav-menu__item:hover {
+  color: #111827;
+}
+
+

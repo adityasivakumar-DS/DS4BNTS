@@ -1,0 +1,50 @@
+.ecommerce-card-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.ecommerce-card-selector__card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ecommerce-card-selector__card--active {
+  border-color: #111827;
+  background-color: #f9fafb;
+}
+
+.ecommerce-card-selector__card--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.ecommerce-card-selector__icon {
+  flex-shrink: 0;
+}
+
+.ecommerce-card-selector__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.ecommerce-card-selector__title {
+  font-weight: 600;
+  color: #111827;
+}
+
+.ecommerce-card-selector__description {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+

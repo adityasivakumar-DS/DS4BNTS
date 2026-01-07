@@ -1,0 +1,57 @@
+.ecommerce-product-brand-rating {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.ecommerce-product-brand-rating__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.ecommerce-product-brand-rating__brand {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6b7280;
+}
+
+.ecommerce-product-brand-rating__name {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.ecommerce-product-brand-rating__rating-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.ecommerce-product-brand-rating__reviews {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.ecommerce-product-brand-rating__wishlist {
+  border-radius: 9999px;
+  border: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  color: #6b7280;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.ecommerce-product-brand-rating__wishlist--active {
+  color: #ef4444;
+  border-color: #fecaca;
+  background-color: #fef2f2;
+}
+
+

@@ -8,4 +8,10 @@ export * from './ProductCard';
 export * from './Cart';
 export * from './Header';
 export * from './Footer';
+export * from './Breadcrumbs';
+export * from './Dropdown';
+export * from './NavMenu';
+export * from './CardSelector';
+export * from './ProductMedia';
+export * from './ProductBrandRating';
 
