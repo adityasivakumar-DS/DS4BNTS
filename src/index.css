@@ -24,6 +24,10 @@ body {
   min-height: 100vh;
 }
 
+#root {
+  min-height: 100vh;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
